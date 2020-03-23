@@ -3,6 +3,12 @@ Six Feet PSA
 
 ## 22march2020 how to make the gif
 
+* slow version
+
+```bash
+ magick convert -delay 480 -loop 0 *.jpg 480-six-feet-psa.gif
+```
+
 * imagemagick version 7
 
 ```bash
